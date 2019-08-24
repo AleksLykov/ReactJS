@@ -104,8 +104,6 @@ class Developer extends Employee {
         return `${super.displayInfo()} :: Manager - ${this.manager}`
     }
 }
-
-
 // ДЕМОНСТРАЦИЯ РАБОТЫ КЛАССОВ
 let hh = new Human('Petr', 25, '25/11')
 console.log(hh.displayInfo())
