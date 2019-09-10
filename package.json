@@ -1,0 +1,36 @@
+{
+  "name": "reactjsproject",
+  "version": "1.0.0",
+  "description": "The first project on the ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "dev2": "webpack --mode development ./src/index.js --output ./dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksLykov/ReactJS.git"
+  },
+  "author": "Aleks Lykov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksLykov/ReactJS/issues"
+  },
+  "homepage": "https://github.com/AleksLykov/ReactJS#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@std/esm": "^0.26.0",
+    "babel-loader": "^8.0.6",
+    "esm": "^3.2.25",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.8"
+  }
+}
